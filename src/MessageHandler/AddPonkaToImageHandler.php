@@ -11,6 +11,6 @@ class AddPonkaToImageHandler implements MessageHandlerInterface
 
     public function __invoke(AddPonkaToImage $addPonkaToImage)
     {
-
+        dump($addPonkaToImage);
     }
 }
